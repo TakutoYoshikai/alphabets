@@ -21,6 +21,15 @@ alphabets
 alphabets -A
 ```
 
+**print hex characters**
+```bash
+alphabets -hex
+# 0123456789abcdef
+
+alphabets -HEX
+# 0123456789ABCDEF
+```
+
 **print numbers**
 ```bash
 alphabets -n
