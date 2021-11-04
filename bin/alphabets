@@ -10,6 +10,10 @@ if [ "$1" = "-n" ]; then
   echo 0123456789
 fi
 
+if [ "$1" = "-all" ]; then
+  echo `alphabets -a``alphabets -A``alphabets -n`
+fi
+
 if [ "$1" = "" ]; then
-  echo abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+  alphabets -a
 fi
