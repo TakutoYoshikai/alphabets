@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ "$1" = "-a" ]; then
+  echo abcdefghijklmnopqrstuvwxyz
+fi
+if [ "$1" = "-A" ]; then
+  echo ABCDEFGHIJKLMNOPQRSTUVWXYZ
+fi
+if [ "$1" = "-n" ]; then
+  echo 0123456789
+fi
+
+if [ "$1" = "" ]; then
+  echo abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+fi
