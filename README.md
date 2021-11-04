@@ -14,11 +14,13 @@ npm install -g TakutoYoshikai/alphabets
 **print lowercase alphabets**
 ```bash
 alphabets
+# abcdefghijklmnopqrstuvwxyz
 ```
 
 **print uppercase alphabets**
 ```bash
 alphabets -A
+# ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
 
 **print hex characters**
@@ -33,11 +35,13 @@ alphabets -HEX
 **print numbers**
 ```bash
 alphabets -n
+# 0123456789
 ```
 
 **print those**
 ```bash
 alphabets -all
+# abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
 ```
 
 ### License
