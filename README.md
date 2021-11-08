@@ -32,7 +32,7 @@ alphabets -HEX
 
 **print numbers**
 ```bash
-alphabets -n
+alphabets -0
 ```
 
 **print those**
